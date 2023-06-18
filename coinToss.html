@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss</title>
+    <link rel="stylesheet" type="text/css" href="coinToss.css">
+</head>
+<body>
+
+            <h2 class="heading">Let's Toss <img src='./img/coinFlip.png' height=150px; alt="coinflip"> the coin </h2>
+            <br>
+            <div class="coinsbutton">
+                <button id="heads" class="heads"><img src='./img/heads.png' alt="coinhead" class="img"></button>
+                <button class="tails"><img src='./img/tails.png' alt="cointail" class="img"></button>
+                
+            </div>
+            
+ 
+         
+            <div class="result">
+                <button onclick="toss('reset')" class="reset">Reset</button> 
+                <h1 id="green"></h1>
+                <h1 id="red"></h1>
+                <p class="tossresult"></p>
+                <p class="computerMove"></p>
+            </div>
+            
+
+    
+    <script src="coinToss.js">   </script>
+</body>
+</html>

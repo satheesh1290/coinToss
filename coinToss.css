@@ -8,13 +8,13 @@ body{
     display:flex; gap:100px; justify-content: center;
 }
 .heads,.tails{
-    background-color: transparent; border:none;
+    background-color: transparent; border:none; cursor:pointer;
 }
 .img{
     width:150px; height:150px;
 }
 .reset{
-    background-color:orangered; font-weight: bold; margin:30px 0; padding:5px 10px;
+    background-color:orangered; font-weight: bold; margin:30px 0; padding:5px 10px; cursor:pointer;
 }
 .result{
     display:block; text-align: center; margin-right: end;
@@ -36,3 +36,14 @@ body{
     font-weight: bolder;
     text-align: center;
 }
+@media screen and (max-width:600px){
+    body{
+        width:100%;
+        overflow:hidden;        
+    }
+    .img{
+        width:100px;
+        height:100px;
+    }
+}
+
